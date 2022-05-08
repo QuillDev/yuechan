@@ -1,5 +1,5 @@
-import { Controller } from "../../../@types/Controller";
 import { HimeClient } from "../../HimeClient";
+import { Controller } from "../Controller";
 
 export class LoginController extends Controller {
     register({client}: HimeClient): Promise<any> {

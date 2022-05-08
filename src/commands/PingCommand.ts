@@ -1,6 +1,6 @@
 import { CacheType, CommandInteraction } from "discord.js";
-import { Command } from "../../@types/Command";
 import { HimeClient } from "../HimeClient";
+import { Command } from "./Command";
 
 export class PingCommand extends Command {
     get name(): string {

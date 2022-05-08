@@ -1,7 +1,7 @@
 import { REST } from "@discordjs/rest";
 import { Client } from "discord.js";
-import { Command } from "../@types/Command";
-import { Controller } from "../@types/Controller";
+import { Command } from "./commands/Command";
+import { Controller } from "./controllers/Controller";
 
 export class HimeClient {
     public rest: REST;

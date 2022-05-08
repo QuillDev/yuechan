@@ -1,8 +1,8 @@
 import { SlashCommandBuilder } from "@discordjs/builders";
 import { RESTPostAPIApplicationCommandsJSONBody } from "discord-api-types/v10";
 import { Routes } from 'discord-api-types/v9'
-import { Controller } from "../../@types/Controller";
 import { HimeClient } from "../HimeClient";
+import { Controller } from "./Controller";
 
 export class CommandRegister extends Controller {
 

@@ -4,8 +4,8 @@ import { HimeClient } from './src/HimeClient';
 import { LoginController } from './src/controllers/listener/LoginController';
 import { PingCommand } from './src/commands/PingCommand';
 import { CommandHandler } from './src/controllers/CommandHandler';
-import { Margins } from './src/commands/bazaar/Margins';
 import { CommandRegister } from './src/controllers/CommandRegister';
+import { Margins } from './src/commands/bazaar/Margins';
 config();
 
 const token = process.env.DISCORD_TOKEN;

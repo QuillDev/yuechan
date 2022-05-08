@@ -1,6 +1,6 @@
 import { SlashCommandBuilder } from "@discordjs/builders";
 import { CommandInteraction } from "discord.js";
-import { HimeClient } from "../src/HimeClient";
+import { HimeClient } from "../HimeClient";
 
 export abstract class Command{
     abstract get name(): string;

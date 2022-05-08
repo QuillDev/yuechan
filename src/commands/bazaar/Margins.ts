@@ -1,6 +1,6 @@
 import { CommandInteraction, CacheType, MessageEmbed } from "discord.js";
-import { Command } from "../../../@types/Command";
 import { HimeClient } from "../../HimeClient";
+import { Command } from "../Command";
 import { getBiggestGains } from "./HypixelAPI";
 
 const formatter = new Intl.NumberFormat('en-US', {
